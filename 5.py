@@ -12,5 +12,5 @@ from functools import reduce
 def prod(a,b):
     return a*b
 
-mas=range(100,1001)
+mas=range(100,1001,2)
 print(reduce(prod,mas))
